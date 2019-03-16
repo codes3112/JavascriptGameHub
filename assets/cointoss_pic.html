@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Heads n Tails 2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="cointoss_pic/css/heads.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="navbar" id="myNavbar">
+          <a
+            href="index_main.html"
+            class="active fa fa-home"
+            style="font-size:24px"
+            >&nbsp;Home</a
+          >
+          <a href="hangman_main.html">HangMan</a>
+          <a href="tictactoe_main.html">Tic-Tac-Toe</a>
+          <a href="cointoss_main.html">Coin-Toss 1</a>
+          <a href="cointoss_pic.html">Coin-Toss 2</a>
+          <a href="game15_main.html">Game of 15</a>
+          <a href="contact_main.html">Contact Us</a>
+          <a
+            href="javascript:void(0);"
+            style="font-size:15px;"
+            class="icon"
+            onclick="myFunction()"
+            >&#9776;</a
+          >
+        </div>
+
+        <h1>Digital Toss ||What's Your Pick??</h1>
+        <div>
+          <img
+            src="cointoss_pic/images/head1.jpg"
+            alt="heads"
+            title="Click Head"
+            onclick="heads()"
+          />
+          <img
+            src="cointoss_pic/images/tail1.gif"
+            alt="heads"
+            title="Click Tail"
+            onclick="tails()"
+          />
+        </div>
+
+        <p id="outcome"></p>
+        <div>
+          <button class="btn" onclick="display()">Result</button>
+        </div>
+        <p id="result"></p>
+        <div>
+          <button class="btn" onclick="playagain()">Play Again</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <footer>
+          <br />Copyright &copy; 2018 Sneha Arora<br />Email :<a
+            href="mailto:codes3112@gmail.com"
+            >codes3112@gmail.com</a
+          >&nbsp;&nbsp;&nbsp;<a href="https://github.com/codes3112">Github</a>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      function playagain() {
+        totalCount = 0;
+        winCount = 0;
+        document.getElementById("outcome").innerHTML = "";
+        document.getElementById("result").innerHTML = "";
+      }
+      var totalCount = 0;
+      var winCount = 0;
+      function heads() {
+        if (Math.random() > 0.5) {
+          document.getElementById("outcome").innerHTML = "Heads:You Won";
+          winCount++;
+        } else {
+          document.getElementById("outcome").innerHTML = "Heads:You Lost";
+        }
+        return totalCount++;
+      }
+      function tails() {
+        if (Math.random() < 0.5) {
+          document.getElementById("outcome").innerHTML = "Tails:You Won";
+          winCount++;
+        } else {
+          document.getElementById("outcome").innerHTML = "Tails:You Lost";
+        }
+        return totalCount++;
+      }
+      function display() {
+        document.getElementById("result").innerHTML =
+          "TOTAL TURNS :" + totalCount + "<br> TOTAL WINS:" + winCount;
+      }
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Game of 15</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="game15/css/game15style.css">
+	
+<script src="game15/js/game15.js"> </script>
+<script src="js/main.js"> </script>
+
+</head>
+
+<body>
+<div class="navbar" id="myNavbar">
+  <a href="index_main.html" class="active fa fa-home" style="font-size:24px">&nbsp;Home</a>
+  <a href="hangman_main.html" style="font-size:22px">HangMan</a>
+  <a href="tictactoe_main.html" style="font-size:22px">Tic-Tac-Toe</a>
+  <a href="cointoss_main.html" style="font-size:22px">Coin-Toss 1</a>
+  <a href="cointoss_pic.html" style="font-size:22px">Coin-Toss 2</a>
+   <a href="game15_main.html" style="font-size:22px">Game Of 15</a>
+  <a href="contact_main.html" style="font-size:22px">Contact Us</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<h2>GAME OF 15</h2>
+<div id="content">
+<p><input type="button" class="btn" value = "Start the game" onclick="setup();"></p>
+
+<h3>You can move any number into an empty spot by moving up, down,right, or left. Click on the number you want to move.Diagonal moves are not allowed. The object is to get all the numbers into correct order, from 1 through 15 with the empty space at the end.</h3>
+<table>
+<tr>
+ 	<td><span onclick = "doClick(0,0)" id = "cell00">&nbsp;</span></td>
+	<td><span onclick = "doClick(0,1)" id = "cell01">&nbsp;</span></td>
+	<td><span onclick = "doClick(0,2)" id = "cell02">&nbsp;</span></td>
+	<td><span onclick = "doClick(0,3)" id = "cell03">&nbsp;</span></td>
+</tr> <tr>
+	<td><span onclick = "doClick(1,0)" id = "cell10">&nbsp;</span></td>
+	<td><span onclick = "doClick(1,1)" id = "cell11">&nbsp;</span></td>
+	<td><span onclick = "doClick(1,2)" id = "cell12">&nbsp;</span></td>
+	<td><span onclick = "doClick(1,3)" id = "cell13">&nbsp;</span></td>
+</tr> <tr>
+	<td><span onclick = "doClick(2,0)" id = "cell20">&nbsp;</span></td>
+	<td><span onclick = "doClick(2,1)" id = "cell21">&nbsp;</span></td>
+	<td><span onclick = "doClick(2,2)" id = "cell22">&nbsp;</span></td>
+	<td><span onclick = "doClick(2,3)" id = "cell23">&nbsp;</span></td>
+</tr> <tr>
+	<td><span onclick = "doClick(3,0)" id = "cell30">&nbsp;</span></td>
+	<td><span onclick = "doClick(3,1)" id = "cell31">&nbsp;</span></td>
+	<td><span onclick = "doClick(3,2)" id = "cell32">&nbsp;</span></td>
+	<td><span onclick = "doClick(3,3)" id = "cell33">&nbsp;</span></td>
+</tr>
+</table>
+</div>
+
+
+	<div class="transbox"> 
+			<footer>
+			Copyright &copy; 2018 Sneha Arora<br>
+			<a href="mailto:snehaarora3112@gmail.com">&nbsp;E-Mail:codes3112@gmail.com</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/codes3112">Github</a>
+			</footer> 
+	</div>
+
+
+</body>
+</html>

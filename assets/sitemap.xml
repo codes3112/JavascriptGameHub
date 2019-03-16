@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://triosdevelopers.com/~S.Arora/JavaScript%20Project/assets/index_main.html</loc>
+  <lastmod>2019-03-16T01:56:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://triosdevelopers.com/~S.Arora/JavaScript%20Project/assets/hangman_main.html</loc>
+  <lastmod>2019-03-16T01:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://triosdevelopers.com/~S.Arora/JavaScript%20Project/assets/tictactoe_main.html</loc>
+  <lastmod>2019-03-16T01:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://triosdevelopers.com/~S.Arora/JavaScript%20Project/assets/cointoss_main.html</loc>
+  <lastmod>2019-03-16T01:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://triosdevelopers.com/~S.Arora/JavaScript%20Project/assets/cointoss_pic.html</loc>
+  <lastmod>2019-03-16T01:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://triosdevelopers.com/~S.Arora/JavaScript%20Project/assets/game15_main.html</loc>
+  <lastmod>2019-03-16T01:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://triosdevelopers.com/~S.Arora/JavaScript%20Project/assets/contact_main.html</loc>
+  <lastmod>2019-03-16T01:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://triosdevelopers.com/~S.Arora/JavaScript%20Project/assets/error/index.html</loc>
+  <lastmod>2015-08-27T17:36:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

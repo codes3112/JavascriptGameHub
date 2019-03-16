@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hangman</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="hangman/css/style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+<div class="navbar" id="myNavbar">
+  <a href="index_main.html" class="active fa fa-home" style="font-size:24px">&nbsp;Home</a>
+  <a href="hangman_main.html" style="font-size:22px">HangMan</a>
+  <a href="tictactoe_main.html" style="font-size:22px">Tic-Tac-Toe</a>
+  <a href="cointoss_main.html" style="font-size:22px">Coin-Toss 1</a>
+  <a href="cointoss_pic.html" style="font-size:22px">Coin-Toss 2</a>
+  <a href="game15_main.html" style="font-size:22px">Game of 15</a>
+  <a href="contact_main.html" style="font-size:22px">Contact Us</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!-- <button class="btn"><i class="fa fa-home"></i><a href="index.html">&nbsp;Home</a></button> -->
+
+<div> <h1>Hangman</h1>
+
+      <h2>Use the alphabet below to guess the word, or click hint to get a clue. </h2>
+</div>
+
+    <div id="buttons"></div> 
+	
+    <p id="catagoryName"></p>
+    <div id="hold"></div>
+	
+    <p id="mylives"></p>
+    <p id="clue">Clue -</p>  
+    <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+	
+    <div class="container">
+      <button class="btn1" id="hint">Hint</button>
+      <button class="btn1" id="reset">Play again</button>
+    </div>
+
+<footer>
+
+<br>Copyright &copy; 2018 Sneha Arora<br>
+Email :<a href="mailto:snehaarora3112@gmail.com">snehaarora3112@gmail.com</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/codes3112">Github</a>
+</footer> 
+
+<script src="hangman/js/index.js"></script>   
+<script src="js/main.js"> </script> 
+    
+ </div>   
+ </body>
+</html>
